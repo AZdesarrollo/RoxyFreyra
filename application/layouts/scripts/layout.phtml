@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Bootstrap 101 Template</title>
+        <title>Roxy Freyra</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
         <title>Roxy Freyra</title>
         <meta  http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <?php
         echo $this->headLink()
                 ->prependStylesheet($this->baseUrl() . '/css/estilos.css')
-                ->prependStylesheet($this->baseUrl() . '/css/nav.css')
                 ->prependStylesheet($this->baseUrl() . '/css/bootstrap.css');
 
         echo $this->headScript()->appendFile($this->baseUrl() . '/js/jquery/js/jquery-1.10.2.min.js')
-                ->appendFile($this->baseUrl() . '/js/SpasticNav.js')
-                ->appendFile($this->baseUrl() . '/jquery.spasticNav.js')
                 ->appendFile($this->baseUrl() . '/js/bootstrap.min.js')
                 ->appendFile($this->baseUrl() . '/js/frontend.js')
         ?>
